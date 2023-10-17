@@ -1,0 +1,3 @@
+<?php
+    $peticion="index";
+?>
