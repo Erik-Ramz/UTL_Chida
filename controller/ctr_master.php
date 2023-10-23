@@ -1,14 +1,16 @@
 <?php
-  $peticion="home";
-  extract($_REQUEST);
-  switch($peticion){
-    case "home":
-        break;
-    case "...":
-        break;
-    default:
-    header('location:?peticion=home');
-        break;
-  }
+$peticion = "zonaUTL";
 
-?>
+if (isset($_REQUEST['peticion'])) {
+  $peticion = $_REQUEST['peticion'];
+}
+
+switch ($peticion) {
+  case "zonaUTL":
+    break;
+  case "...":
+    break;
+  default:
+    header('location:zonaUTL.php');
+    break;
+}
