@@ -1,13 +1,13 @@
 <?php
-  $peticion="home";
+  $peticion="index";
   extract($_REQUEST);
   switch($peticion){
-    case "home":
+    case "index":
         break;
     case "...":
         break;
     default:
-    header('location:?peticion=home');
+    header('location:?peticion=index');
         break;
   }
 

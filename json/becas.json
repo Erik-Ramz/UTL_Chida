@@ -1,0 +1,103 @@
+{
+    "beca_interna": [
+        {
+            "nombre": "Convocatoria de Becas",
+            "proceso": [
+                {
+                    "paso1": "...",
+                    "paso2": "...",
+                    "paso3": "..."
+                }
+            ]
+        },
+        {
+            "nombre": "Convocatoria de Becas alimentaria",
+            "proceso": [
+                {
+                    "paso1": "...",
+                    "paso2": "...",
+                    "paso3": "..."
+                }
+            ]
+        }
+    ],
+    "servicio_becario": [
+        {
+            "nombre": "Convocatoria de Registro de Proyecto/Personal Administrativo y Académico UTL",
+            "proceso": [
+                {
+                    "paso1": "...",
+                    "paso2": "...",
+                    "paso3": "..."
+                }
+            ]
+        },
+        {
+            "nombre": "Proceso de Servicio Becario/Alumnado Becado",
+            "proceso": [
+                {
+                    "titulo": "¿Qué es el Servicio Becario?",
+                    "descripcion": "Servicio Becario es el compromiso que adquiere el alumnado que es beneficiario de la Beca Interna UTL, equivalente a 32 horas de actividades cuatrimestrales, conforme a lo establecido en el Reglamento Académico en su Capítulo III, Artículo 113 y 114.",
+                    "importante": [
+                        "Si estás por egresar del nivel TSU o ING-LIC es necesario realices el o los servicios becarios que tengas pendientes de otros cuatrimestres previos a la estadía.",
+                        "Si fuiste beneficiado o beneficiada con Beca Interna en el cuatrimestre de estadía, no debes realizar servicio becario."
+                    ]
+                },
+                {
+                    "titulo": "¿Cuál es el timpo para realizar el Servicio Becario?",
+                    "descripcion": [
+                        "Servicio Becario es el compromiso que adquiere el alumnado que es beneficiario de la Beca Interna UTL, equivalente a 32 horas de actividades cuatrimestrales, conforme a lo establecido en el Reglamento Académico en su Capítulo III, Artículo 113 y 114.",
+                        "Tecuerda que es importante cumplir en tiempo y forma con el servicio, de lo contraro no pódras participar en la convocatoria para para renovar la beca interna",
+                        "Debes concluir el Servicio Becario antes del 11 de Noviembre del 2023"
+                    ]
+                },
+                {
+                    "titulo": "¿Dónde reviso los proyectos y cómo me postulo al Servicio Becario?",
+                    "importante": "Mucho texto",
+                    "puntos": [
+                        {
+                            "punto": "Primer punto: Consuta los Proyectos de Servicio Becario",
+                            "descripcion": [
+                                "1. Ingresa a tu SITO",
+                                "2. Sigue la siguiente ruta: Becas/ 5. Procesos de Servicio Becario/ Proyectos de Servicio Becario",
+                                "3. Revisa la lista de Proyectos de Servicio Becario dispoibles"
+                            ]
+                        },
+                        {
+                            "punto": "Segundo punto: Revisa el conteido de los Proyectos de Servicio becario",
+                            "descripcion": [
+                                "Revisa detalladamente los apartados del Proyecto:",
+                                "Encabezado 'Lista de Proyectos de Servicios Becarios'",
+                                "Nombre del proyecto e infomación del responsable del proyecto"
+                                ,
+                                "Actividades a realizar en el Proyecto",
+                                "Fecha de inicio de las actividades del Proyecto",
+                                "Observaciones y requerimientos necesarios del Proyecto",
+                                "Botón para activar la postulación"
+                            ]
+                        },
+                        {
+                            "punto": "Tercer punto: Postulación al Servicio becario",
+                            "titulo_alta": "Postulación al Servicio becario",
+                            "alta_sb": [
+                                "Para postularse, dar clic al icono color verde",
+                                "Una vez, genreada la postulación, se te notificará con el mensaje 'Tu postulación al Srevicio Becario se guardo correctamente'"
+                            ],
+                            "titulo_baja": "Postulación al Servicio becario",
+                            "baja_sb": [
+                                "Si deseas cancelar la postulación, dar clic nuevamente al icono de postlación, que se ve actualizo a color naranja.",
+                                "Recordatorio: Tienes que estar monitoreando tu aceptación al proyecto seleccionado y estar en contacto con el responsable del proyecto para iniciar y concluir las actividades debidamente antes del 11 de Noviembre del 2023"
+                            ]
+                        },
+                        {
+                            "punto": "Cuarto punto: ¿Dónde reviso mi liberación del Servicio Becario?",
+                            "descripcion": [
+                                "Como benefciario/a de tu Beca Interna UTL, tienes la responsabilidad de dar seguimiento y verificar cuál es el estatus becario, para ello, ingresa a tu sesión personal de SITO en el apartado de Becas/ 2. Proceso Beca Interna/ Solicitud de Beca/ Servicio Becario."
+                            ]  
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
