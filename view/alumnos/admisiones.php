@@ -20,13 +20,10 @@ $footer = "../../components/footer.php";
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/card.css">
     <link rel="stylesheet" href="../css/card-carrera.css">
-    <link rel="stylesheet" href="../css/modelo-estudios.css">
-    <link rel="stylesheet" href="../css/pilares-institucionales.css">
     <link rel="stylesheet" href="../css/faq.css">
     <link rel="stylesheet" href="../css/footer.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.8/glider.css" integrity="sha512-xcz2kgNDovRs9/wYWii2XSBEDlpaTq99iewiGN3PR/pNnPaSDiw6wHpXU0kFyonevdVj/MkeesxMII8sgolFCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="shortcut icon" href="../../src/img/favicon.ico" type="image/x-icon">
     <title>Universidad Tecnológica de León</title>
@@ -41,10 +38,10 @@ $footer = "../../components/footer.php";
     <header>
         <section class="header-info">
             <h1 class="title-header">Proceso de admisión <span class="text-highlight">2024</span></h1>
-            <a href="#carreras" class="btn-primary-utl"> <i class='bx bx-right-arrow-alt'></i> Aplicar</a>
+            <a href="#proceso-admision" class="btn-primary-utl"> <i class='bx bx-right-arrow-alt'></i> Aplicar</a>
         </section>
         <section class="header-img">
-            <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <img src="../../src/img/utl_1.webp" alt="">
         </section>
     </header>
 
@@ -57,23 +54,28 @@ $footer = "../../components/footer.php";
                 <button id="btn-tsu-list">
                     <i class='bx bxs-graduation'></i>
                     <div>
-                        <h3>Carreras TSU</h3>
+                        <h3>Admisiones TSU</h3>
                         <p>Técnico Superior Universitario</p>
                     </div>
                 </button>
                 <button id="btn-ing-lic-list">
-                    <i class='bx bxs-hard-hat'></i>
+                    <i class='bx bxs-hard-hat' style='color: #2196F3'></i>
                     <div>
-                        <h3>Carreras ING/LIC</h3>
+                        <h3>Admisiones ING/LIC</h3>
                         <p>Ingenierías y Licenciaturas</p>
                     </div>
                 </button>
             </div>
             <div class="vl"></div>
             <div class="right-column" id="info">
-                <ul id="carreras-list">
+                <ul id="admisiones-list">
                 </ul>
             </div>
+        </section>
+
+        <section class="banner">
+            <h2>CONOCE NUESTRAS CARRERAS</h2>
+            <a href="../../index.php#carreras" class="btn-secondary-utl"> <i class='bx bx-right-arrow-alt'></i> OFERTA</a>
         </section>
 
     </main>
@@ -84,8 +86,8 @@ $footer = "../../components/footer.php";
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.8/glider.min.js" integrity="sha512-AZURF+lGBgrV0WM7dsCFwaQEltUV5964wxMv+TSzbb6G1/Poa9sFxaCed8l8CcFRTiP7FsCgCyOm/kf1LARyxA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="../js/descripcion-carrera.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/faq.js"></script>
+<script src="../js/procesoAdmision.js"></script>
 
 </html>

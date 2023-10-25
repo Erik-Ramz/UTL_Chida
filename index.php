@@ -105,7 +105,7 @@ $footer = "components/footer.php";
             <a href="#carreras" class="btn-primary-utl"> <i class='bx bxs-graduation'></i> Oferta educativa</a>
         </section>
         <section class="header-img">
-            <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <img src="src/img/utl_3.webp" alt="">
         </section>
     </header>
 
@@ -123,7 +123,7 @@ $footer = "components/footer.php";
                     </div>
                 </button>
                 <button id="btn-ing-lic-list">
-                    <i class='bx bxs-hard-hat'></i>
+                    <i class='bx bxs-hard-hat' style="color: #2196F3"></i>
                     <div>
                         <h3>Carreras ING/LIC</h3>
                         <p>Ingenierías y Licenciaturas</p>
@@ -178,7 +178,7 @@ $footer = "components/footer.php";
         <section class="pilares-institucionales">
             <div class="container_utl">
                 <div class="image-box_utl">
-                    <img src="https://images.pexels.com/photos/7213192/pexels-photo-7213192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen de la empresa">
+                    <img src="src/img/utl_5.webp" alt="Imagen de la empresa">
                 </div>
                 <div class="content-box_utl">
                     <div class="content-box_utl_info">
@@ -197,7 +197,7 @@ $footer = "components/footer.php";
 
         <section class="banner">
             <h2>INSCRIPCIONES ABIERTAS 2024</h2>
-            <button class="btn-secondary-utl"> <i class='bx bx-right-arrow-alt'></i> INICIAR PROCESO</button>
+            <a href="view/alumnos/admisiones.php" class="btn-secondary-utl"> <i class='bx bx-right-arrow-alt'></i> INICIAR PROCESO</a>
         </section>
 
     </main>
@@ -208,7 +208,7 @@ $footer = "components/footer.php";
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="view/js/jquery-2.1.4.min.js"></script>
 <script src="view/js/carreras_list.js"></script>
 <script src="view/js/pilares-institucionales.js"></script>
 

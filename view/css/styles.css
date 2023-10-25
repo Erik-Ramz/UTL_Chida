@@ -136,6 +136,13 @@ main {
     color: var(--color-white);
 }
 
+.badge {
+    padding: 4px 10px;
+    border-radius: 25px;
+    margin: 2px 5px;
+    font-size: 12px;
+}
+
 @media (max-width: 900px) {
     .section-content {
         width: 80%;

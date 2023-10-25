@@ -10,12 +10,19 @@
     --color-black: #000;
 }
 
-.faq-card {
+.faq-card,
+.faq-card-becas {
     background-color: var(--color-white);
     border-radius: 24px;
-    width: 70%;
+    width: 100%;
     padding: 20px;
     box-shadow: 2px 9px 65px -54px rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+}
+
+.faq-card-becas:hover {
+    background-color: var(--color-highlight);
+    cursor: pointer;
 }
 
 .faq-content {
@@ -35,9 +42,14 @@
     transition: max-height 0.3s ease-in-out;
 }
 
-.faq-card.active .additional-info {
-    max-height: 100px;
+.faq-card.active,
+.additional-info.active {
+    max-height: fit-content;
 }
+
+/* .faq-card-becas:has(.additional-info.active) {
+    background-color: var(--color-highlight);
+} */
 
 .additional-info p {
     color: #555;

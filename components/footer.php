@@ -23,7 +23,7 @@
             <h5>Encuéntranos como: UTLmex</h5>
             <div>
                 <a href="https://www.facebook.com/UTLmex/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.facebook.com/UTLmex/" target="_blank"><i class='bx bxl-whatsapp'></i></a>
                 <a href="https://www.instagram.com/utlmex/" target="_blank"><i class='bx bxl-instagram'></i></a>
                 <a href="https://www.youtube.com/watch?v=nBwhAYlqEzY" target="_blank"><i class='bx bxl-youtube'></i></a>
                 <a href="https://twitter.com/utlmex" target="_blank"><i class='bx bxl-twitter'></i></a>

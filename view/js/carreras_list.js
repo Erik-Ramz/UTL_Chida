@@ -9,6 +9,7 @@ $(document).ready(function () {
 
 function getCarreras(carrera) {
 
+    var html = "";
     $("#carreras-list").empty();
     $("#carreras-list").removeClass('transition_info');
 
@@ -22,12 +23,17 @@ function getCarreras(carrera) {
         var list = $('#carreras-list');
 
         array.forEach(function (objeto) {
-            list.append(`<li><a href='view/alumnos/descripcion-carrera.php?carrera=${objeto.slug}'>${objeto.titulo}</a></li>`);
+
+            html += `<li><a href='view/alumnos/descripcion-carrera.php?carrera=${objeto.slug}'>${objeto.titulo}</a></li>`;
+
         });
 
-    });
+        setTimeout(function () {
+            $('#carreras-list').addClass('transition_info');
+            list.append(html);
+        }, 200)
 
-    $('#carreras-list').addClass('transition_info');
+    });
 
 }
 
