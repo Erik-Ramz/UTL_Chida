@@ -12,14 +12,14 @@
 
 @font-face {
     font-family: 'Inter-Regular';
-    src: url('/webUTL/src/fonts/InterTight-Regular.ttf') format('truetype');
+    src: url('../../src/fonts/InterTight-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/webUTL/src/fonts/Montserrat-Regular.ttf') format('truetype');
+    src: url('../../src/fonts/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
