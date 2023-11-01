@@ -126,7 +126,7 @@
 
 .left-column button div {
     text-align: left;
-    line-height: 8px;
+    /* line-height: 8px; */
 }
 
 .right-column {

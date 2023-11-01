@@ -66,6 +66,7 @@ main {
     -moz-box-shadow: 2px 10px 23px -1px rgba(0, 178, 147, 0.57);
     box-shadow: 2px 4px 23px -5px rgba(0, 178, 147, 0.57);
     text-decoration: none !important;
+    width: fit-content;
 }
 
 .btn-secondary-utl {
@@ -113,6 +114,22 @@ main {
 
 .btn-primary-icon-utl:hover {
     box-shadow: none;
+}
+
+.btn-step {
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--color-primary);
+    color: var(--color-black);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-step.active {
+    background-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .primary-title {
