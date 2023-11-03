@@ -40,14 +40,14 @@
             <li class="dropdown-utl">
                 <a href="#">Estudiantes <i class='bx bx-chevron-down'></i></a>
                 <ul class="dropdown-menu-utl">
-                    <li><a href="#">Becas</a></li>
-                    <li><a href="#">Reinscripción</a></li>
-                    <li><a href="#">Reingreso</a></li>
-                    <li><a href="#">Estadías</a></li>
-                    <li><a href="#">Titulación</a></li>
-                    <li><a href="#">Proceso de regularización</a></li>
-                    <li><a href="#">Proceso de baja</a></li>
-                    <li><a href="#">Trámites escolares</a></li>
+                    <li><a href="../alumnos/becas.php">Becas</a></li>
+                    <li><a href="../estudiantes/reinscripcion.php">Reinscripción</a></li>
+                    <li><a href="../estudiantes/reingreso.php">Reingreso</a></li>
+                    <li><a href="../estudiantes/estadias.php">Estadías</a></li>
+                    <li><a href="../estudiantes/titulacion.php">Titulación</a></li>
+                    <li><a href="../estudiantes/regularizacion.php">Proceso de regularización</a></li>
+                    <li><a href="../estudiantes/proceso-baja.php">Proceso de baja</a></li>
+                    <li><a href="../estudiantes/tramites-escolares.php">Trámites escolares</a></li>
                 </ul>
             </li>
             <li class="dropdown-utl">

@@ -49,7 +49,7 @@
             ]
         }
     ],
-    "cambiout":[
+    "cambiout": [
         {
             "titulo": "Cambio de otra Universidad Tecnológica",
             "descripcion": [
@@ -102,11 +102,11 @@
                     "link": ""
                 },
                 {
-                    "paso":"",
-                    "detalles":[
+                    "paso": "Respuesta",
+                    "detalles": [
                         "Se te notificará vía correo electrónico la respuesta a tu solicitud el día 7 de diciembre de 2023"
                     ],
-                    "link":""
+                    "link": ""
                 }
             ]
         }
