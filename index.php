@@ -73,14 +73,14 @@ $footer = "components/footer.php";
                 <li class="dropdown-utl">
                     <a href="#">Estudiantes <i class='bx bx-chevron-down'></i></a>
                     <ul class="dropdown-menu-utl">
-                        <li><a href="#">Becas</a></li>
-                        <li><a href="#">Reinscripción</a></li>
-                        <li><a href="#">Reingreso</a></li>
-                        <li><a href="#">Estadías</a></li>
-                        <li><a href="#">Titulación</a></li>
-                        <li><a href="#">Proceso de regularización</a></li>
-                        <li><a href="#">Proceso de baja</a></li>
-                        <li><a href="#">Trámites escolares</a></li>
+                        <li><a href="view/alumnos/becas.php">Becas</a></li>
+                        <li><a href="view/estudiantes/reinscripcion.php">Reinscripción</a></li>
+                        <li><a href="view/estudiantes/reingreso.php">Reingreso</a></li>
+                        <li><a href="view/estudiantes/estadias.php">Estadías</a></li>
+                        <li><a href="view/estudiantes/titulacion.php">Titulación</a></li>
+                        <li><a href="view/estudiantes/regularizacion.php">Proceso de regularización</a></li>
+                        <li><a href="view/estudiantes/proceso-baja.php">Proceso de baja</a></li>
+                        <li><a href="view/estudiantes/tramites-escolares.php">Trámites escolares</a></li>
                     </ul>
                 </li>
                 <li class="dropdown-utl">
