@@ -1,0 +1,56 @@
+{
+    "temporal": [
+        {
+            
+        }
+    ],
+    "definitiva":[
+        {
+            "titulo": "Paso 1",
+            "descripcion": [
+                "Acude a Servicios Escolares directamente con los(as) asesores(as) de atención al alumnado.",
+                "Ubicado en el Edificio CVD, planta baja"
+            ]
+        },
+        {
+            "titulo": "Paso 2",
+            "descripcion": [
+                "Se revisará tu historial y en caso de que sea procedente se te entregará el formato correspondiente para que acudas a las siguientes áreas a liberación de adeudos.",
+                "(La liberación de estas áreas es independiente a Servicios Escolares)."
+            ]
+        },
+        {
+            "titulo": "Áreas",
+            "descripcion": [
+                "Departamento:",
+                "• Laboratorio de idiomas, ubicado en el Edificio F, planta alta.",
+                "• Actividades Culturales y Deportivas, ubicado en el Edificio C, planta baja.",
+                "• Bibloteca, ubicado en el Edificio CI.",
+                "• Centro de computo, ubicado en el Edificio E",
+                "• Laboratorio correspondiente a tu carrera",
+                "• Contabilidad y Finanzas, ubicado en Edificio Rectoria, planta baja",
+                "• Becas, ubicado en el Edificio CVD en Servicios Escolares",
+                "• Casilleros, con el correspondiente a tu carrera",
+                "• Seguridad Social, ubicado en el edificio CVD en Servicios escolares"
+            ]
+        },
+        {
+            "titulo": "Paso 3",
+            "descripcion": [
+                "Una vez que cuentes con el formato de liberación completo, deberás realizar el pago por concepto de devolución de documentos originales (bajas), puedes realizarlo en:",
+                "Caja, edificio de Rectoría ó puedes generar la referencia desde tu cuenta de SITO para que realices el pago en BBVA o por transferencia en la siguiente ruta de tu cuenta de SITO.",
+                "1- Reinscripción y Referencias de Pago / 3- Otras Referencias / Otros Pagos"
+            ]
+        },
+        {
+            "titulo": "Paso 4",
+            "descripcion": [
+                "Acude a Servicios Escolares con la siguiente documentación para concluir el trámite y te sean entregados tus documentos:",
+                "• Formato proporcionado por Servicios Escolares completo.",
+                "• Referencia y pago de devolución de documentos.",
+                "(Si lo realizas en BBVA, deberás traer original y copia del comprobante)",
+                "• Copia de tu INE vigente por ambos lados"
+            ]
+        }
+    ]
+}
