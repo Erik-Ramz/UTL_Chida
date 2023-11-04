@@ -164,6 +164,8 @@ function getCambio(paso) {
 
 
 $(document).on('click', '.btn-becas-internas', function () {
+    $('.btn-step').removeClass('active');
+    $(this).find('.btn-step').addClass('active');
     var tipo = $(this).attr('data-tipo');
     var paso = $(this).attr('data-paso');
 
