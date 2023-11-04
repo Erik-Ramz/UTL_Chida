@@ -101,6 +101,9 @@ function getData(paso) {
 
 
 $(document).on('click', '.btn-becas-internas', function () {
+    $('.btn-step').removeClass('active');
+    $(this).find('.btn-step').addClass('active');
+
     var paso = $(this).attr('data-paso');
     getData(paso);
 });

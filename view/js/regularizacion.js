@@ -2,10 +2,10 @@ var $ = jQuery;
 
 $(document).ready(function () {
 
-    getPasos('recuperacion');
-    getPasos('extraordinario');
-    getRecuperacion('Paso 1');
-    getExtraordinario('Paso 1');
+    getPasos('reincorporacion');
+    getPasos('cambiout');
+    getBaja('1er paso');
+    getCambio('Dirigido a:');
 
 });
 
@@ -13,46 +13,50 @@ $(document).ready(function () {
 function getPasos(tipo) {
 
     var html = "";
-    if (tipo == 'recuperacion') {
-        $("#recuperacion-pasos").empty();
-        $("#recuperacion-pasos").removeClass('transition_info');
-    } else if (tipo == 'extraordinario') {
-        $("#extraordinario-pasos").empty();
-        $("#extraordinario-pasos").removeClass('transition_info');
+    if (tipo == 'reincorporacion') {
+        $("#por-baja-pasos").empty();
+        $("#por-baja-pasos").removeClass('transition_info');
+    } else if (tipo == 'cambiout') {
+        $("#cambiout-pasos").empty();
+        $("#cambiout-pasos").removeClass('transition_info');
     }
 
-    $.getJSON('../../json/regularizacion.json', function (data) {
+    $.getJSON('../../json/reingreso.json', function (data) {
 
-        if (tipo == 'recuperacion') {
-            var array = data.recuperacion;
-            var list = $('#recuperacion-pasos');
-        } else if (tipo == 'extraordinario') {
-            var array = data.extraordinario;
-            var list = $('#extraordinario-pasos');
+        if (tipo == 'reincorporacion') {
+            var array = data.reincorporacion;
+            var list = $('#por-baja-pasos');
+        } else if (tipo == 'cambiout') {
+            var array = data.cambiout;
+            var list = $('#cambiout-pasos');
         }
 
         var i = 1;
         array.forEach(function (objeto) {
 
-            html += `
-                <button class='btn-becas-internas' data-tipo='${tipo}' data-paso='${objeto.titulo}'>
-                    <div class='btn-step'>${i}</div>
-                    <div>
-                        <h3>${objeto.titulo}</h3>
-                    </div>
-                </button>
-            `;
+            objeto.descripcion.forEach(function (desc) {
 
-            i++;
+                var paso = desc.paso;
 
+                html += `
+                    <button class='btn-becas-internas' data-tipo='${tipo}' data-paso='${paso}'>
+                        <div class='btn-step'>${i}</div>
+                        <div>
+                            <h3>${paso}</h3>
+                        </div>
+                    </button>
+                `;
+
+                i++;
+            })
 
         });
 
         setTimeout(function () {
-            if (tipo == 'recuperacion') {
-                $('#recuperacion-pasos').addClass('transition_info');
+            if (tipo == 'reincorporacion') {
+                $('#por-baja-pasos').addClass('transition_info');
             } else if (tipo == 'cambiout') {
-                $('#extraordinario-pasos').addClass('transition_info');
+                $('#cambiout-pasos').addClass('transition_info');
             }
             list.append(html);
         }, 200)
@@ -63,39 +67,46 @@ function getPasos(tipo) {
 }
 
 
-function getRecuperacion(paso) {
+function getBaja(paso) {
 
     var html = "";
-    $("#recuperacion-list").empty();
-    $("#recuperacion-list").removeClass('transition_info');
+    $("#por-baja-list").empty();
+    $("#por-baja-list").removeClass('transition_info');
 
-    $.getJSON('../../json/regularizacion.json', function (data) {
+    $.getJSON('../../json/reingreso.json', function (data) {
 
-        var array = data.recuperacion;
-        var list = $('#recuperacion-list');
+        var array = data.reincorporacion;
+        var list = $('#por-baja-list');
 
         array.forEach(function (objeto) {
 
-            if (objeto.titulo === paso) {
+            objeto.descripcion.forEach(function (desc) {
 
-                html += `
-                    <h4>${objeto.titulo}</h4>
-                    <ul>
-                `;
+                if (desc.paso === paso) {
 
-                objeto.descripcion.forEach(function (desc) {
+                    html += `
+                        <h4>${desc.paso}</h4>
+                        <ul>
+                    `;
 
-                    html += `<li style='cursor:default;'>${desc}</li>`;
+                    desc.detalles.forEach(function (detalle) {
+                        html += `<li>${detalle}</li>`;
+                    });
 
-                });
+                    html += `</ul>`;
 
-                html += `</ul>`;
-            }
+                    if (desc.link != '') {
+                        html += `<a href='${desc.link}' target='_blank' class='btn-primary-utl'>Enlace</a>`;
+                    }
+
+                }
+            })
+
 
         });
 
         setTimeout(function () {
-            $('#recuperacion-list').addClass('transition_info');
+            $('#por-baja-list').addClass('transition_info');
             list.append(html);
         }, 200)
 
@@ -104,39 +115,46 @@ function getRecuperacion(paso) {
 }
 
 
-function getExtraordinario(paso) {
+function getCambio(paso) {
 
     var html = "";
-    $("#extraordinario-list").empty();
-    $("#extraordinario-list").removeClass('transition_info');
+    $("#cambiout-list").empty();
+    $("#cambiout-list").removeClass('transition_info');
 
-    $.getJSON('../../json/regularizacion.json', function (data) {
+    $.getJSON('../../json/reingreso.json', function (data) {
 
-        var array = data.extraordinario;
-        var list = $('#extraordinario-list');
+        var array = data.cambiout;
+        var list = $('#cambiout-list');
 
         array.forEach(function (objeto) {
 
-            if (objeto.titulo === paso) {
+            objeto.descripcion.forEach(function (desc) {
 
-                html += `
-                    <h4>${objeto.titulo}</h4>
-                    <ul>
-                `;
+                if (desc.paso === paso) {
 
-                objeto.descripcion.forEach(function (desc) {
+                    html += `
+                        <h4>${desc.paso}</h4>
+                        <ul>
+                    `;
 
-                    html += `<li style='cursor:default;'>${desc}</li>`;
+                    desc.detalles.forEach(function (detalle) {
+                        html += `<li>${detalle}</li>`;
+                    });
 
-                });
+                    html += `</ul>`;
 
-                html += `</ul>`;
-            }
+                    if (desc.link != '') {
+                        html += `<a href='${desc.link}' target='_blank' class='btn-primary-utl'>Enlace</a>`;
+                    }
+
+                }
+            })
+
 
         });
 
         setTimeout(function () {
-            $('#extraordinario-list').addClass('transition_info');
+            $('#cambiout-list').addClass('transition_info');
             list.append(html);
         }, 200)
 
@@ -152,9 +170,9 @@ $(document).on('click', '.btn-becas-internas', function () {
     var paso = $(this).attr('data-paso');
 
 
-    if (tipo == 'recuperacion') {
-        getRecuperacion(paso);
-    } else if (tipo == 'extraordinario') {
-        getExtraordinario(paso);
+    if (tipo == 'reincorporacion') {
+        getBaja(paso);
+    } else if (tipo == 'cambiout') {
+        getCambio(paso);
     }
 });
