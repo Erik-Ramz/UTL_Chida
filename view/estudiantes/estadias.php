@@ -66,10 +66,59 @@ $footer = "../../components/footer.php";
         <section class="section-content">
             <div class="faq-card">
                 <div class="faq-content">
-                    <p>Pregunta 1</p>
-                    <button class="btn-primary-icon-utl toggleButton"><i class="bx bx-chevrons-down"></i></button>
+                    <p>¿Cuál es el periodo de Estadía?</p>
+                    <button class="btn-primary-icon-utl toggleButtonFaq"><i class="bx bx-chevron-down"></i></button>
                 </div>
-                <div class="additional-info"></div>
+                <div class="additional-info">
+                    <b>1. Cuatrimestre enero – abril</b>
+                    <ul>
+                        <li>Estadías de Ingeniería.</li>
+                        <li>Búsqueda y recepción de proyectos de estadía para TSU siguiente periodo.</li>
+                    </ul>
+                    <b>2. Cuatrimestre mayo – agosto</b>
+                    <ul>
+                        <li>Estadías de TSU.</li>
+                    </ul>
+                    <b>3. Cuatrimestre septiembre – diciembre</b>
+                    <ul>
+                        <li>Búsqueda y recepción de proyectos de estadía para Ingeniería siguiente periodo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <div class="faq-content">
+                    <p>¿Cuáles son los requisitos de Estadía?</p>
+                    <button class="btn-primary-icon-utl toggleButtonFaq"><i class="bx bx-chevron-down"></i></button>
+                </div>
+                <div class="additional-info">
+                    <ol>
+                        <li>Formato de inscripción de proyecto (FIP): deberá ser llenado a computadora cumpliendo con todos los apartados obligatorios (mismos que están marcados con un asterisco * para su identificación).</li>
+                        <li>El FIP deberá estar firmado y sellado por el gestor de carrera y el asesor organizacional.</li>
+                        <li>Acude al área de Prácticas y Estadías a entregar FIP con tu seguridad social.</li>
+                        <li>Después de 5 días hábiles, acude al área de Prácticas y Estadías a recoger tu FIP con sello de recibido para que registres tu proyecto en SITO.</li>
+                        <li>Cuando esté registrado tu proyecto, avisa a tu gestor de carrera para que te asigne tu asesor académico.</li>
+                        <li>Una vez realizado el paso anterior, podrás descargar tu convenio, recolectar firmas y entregarlo a tu gestor de carrera, para que él a su vez, lo proporcione al Departamento de Estadías.</li>
+                    </ol>
+                    <p>IMPORTANTE. La UTL no otorga ningún tipo de apoyo económico. Tampoco otorga ningún tipo de carta que testifique el estado de salud del estudiante o que cuenta con vacuna COVID-19.</p>
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <div class="faq-content">
+                    <p>¿Qué tipo de seguro puedo tener para realizar mi estadía?</p>
+                    <button class="btn-primary-icon-utl toggleButtonFaq"><i class="bx bx-chevron-down"></i></button>
+                </div>
+                <div class="additional-info">
+                    <ul>
+                        <li>Constancia de Vigencia de Seguridad Social del IMSS (descargarlo de la página del IMSS).</li>
+                        <li>INSABI: Debe entregar Póliza de Afiliación con vigencia actualizada.</li>
+                        <li>ISSSTE: Debe presentar copia del tarjetón o carta de afiliación donde indique la vigencia activa.</li>
+                        <li>Póliza de Seguro particular vigente.</li>
+                        <li>En caso de no tener Seguro, deberás acudir a Servicios Escolares para obtener Seguro Facultativo.</li>
+                    </ul>
+
+                </div>
             </div>
         </section>
 

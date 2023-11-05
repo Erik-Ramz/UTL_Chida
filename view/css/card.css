@@ -117,6 +117,12 @@
 .left-column button:hover,
 .right-column ul li:hover {
     background-color: var(--color-highlight);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.right-column ul li:hover {
+    background-color: var(--color-highlight);
+    border-bottom: 0;
 }
 
 .left-column button i {

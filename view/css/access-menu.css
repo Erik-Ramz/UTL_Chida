@@ -22,6 +22,7 @@
     justify-content: center;
     cursor: pointer;
     font-size: 32px;
+    box-shadow: 2px 4px 23px -5px rgba(168, 168, 168, 0.57);
 }
 
 .chocolate-label>img {
@@ -52,17 +53,26 @@
 .chocolate-menu ul {
     list-style: none;
     padding: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 15px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 10px;
 }
 
 .chocolate-menu li {
-    width: fit-content;
+    width: 100%;
     padding: 10px;
     font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+
+.chocolate-menu li:hover {
+    background-color: var(--color-background);
 }
 
 .chocolate-menu li:hover>a i {
@@ -81,6 +91,11 @@
 .chocolate-menu li a i {
     font-size: 45px;
     color: var(--color-primary);
+}
+
+.chocolate-menu li a img {
+    width: 45px;
+    height: 45px;
 }
 
 /* Mostrar el menú cuando el checkbox está marcado */
