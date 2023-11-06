@@ -51,6 +51,7 @@ $footer = "components/footer.php";
                             <li><a href="http://www.bibliotecaecest.mx/" target="_blank"><img src="svg/books.svg" alt="">Biblioteca</a></li>
                             <li><a href="https://utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N__.jpg" target="_blank"><img src="svg/calendar.svg" alt="">2022 - 2023</a></li>
                             <li><a href="https://utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N.jpg" target="_blank"><img src="svg/calendar.svg" alt="">2023 - 2024</a></li>
+                            <li><a href="https://www.utleon.edu.mx/public_html/transparencia/normateca/docs/normas/reglamento_academico.pdf" target="_blank"><img src="svg/rules.svg" alt="">Reglamento</a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +61,7 @@ $footer = "components/footer.php";
         <div class="navbar-container">
             <ul class="navbar-menu">
                 <li class="dropdown-utl">
-                    <a href="index.php">Inicio</a>
+                    <a href="index.php">Zona UTL</a>
                 </li>
                 <li class="dropdown-utl">
                     <a href="#">Aspirantes <i class='bx bx-chevron-down'></i></a>
@@ -86,9 +87,9 @@ $footer = "components/footer.php";
                 <li class="dropdown-utl">
                     <a href="#">Docentes <i class='bx bx-chevron-down'></i></a>
                     <ul class="dropdown-menu-utl">
-                        <li><a href="#">Desarrollo académico</a></li>
-                        <li><a href="#">Tutoreo</a></li>
-                        <li><a href="#">Movilidad Docente</a></li>
+                        <li><a href="view/docentes/desarrollo-academico.php">Desarrollo académico</a></li>
+                        <li><a href="view/docentes/tutoreo.php">Tutoreo</a></li>
+                        <li><a href="view/docentes/movilidad-utl.php">Movilidad Docente</a></li>
                     </ul>
                 </li>
             </ul>
@@ -179,7 +180,7 @@ $footer = "components/footer.php";
         <section class="pilares-institucionales">
             <div class="container_utl">
                 <div class="image-box_utl">
-                    <img src="src/img/utl_5.webp" alt="Imagen de la empresa">
+                    <img src="src/img/utl_5.webp" loading="lazy" alt="Imagen de la empresa">
                 </div>
                 <div class="content-box_utl">
                     <div class="content-box_utl_info">
