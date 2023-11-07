@@ -116,69 +116,72 @@ main {
     box-shadow: none;
 }
 
-.btn-step {
-    width: 32px;
-    height: 32px;
+/* .btn-primary-utl-to-section {
+    background-image: linear-gradient(to right, #00b293, #00ad94, #00a895, #00a295, #009d94);
+    color: var(--color-white);
+    padding: 10px 28px;
+    border-radius: 10px;
+    border: 2px solid var(--color-primary);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    text-decoration: none !important;
+    width: fit-content;
+}
+.btn-primary-utl-to-section:hover {
+    background: transparent;
     border: 2px solid var(--color-primary);
     color: var(--color-black);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+} */
+
+.btn-primary-utl-to-section {
+    display: block;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 28px;
+    border-radius: 10px;
+    color: var(--color-black);
+    border: 2px solid var(--color-primary);
+    text-align: center;
+    position: relative;
+    transition: all .35s;
 }
 
-.btn-step.active {
-    background-color: var(--color-primary);
+.btn-primary-utl-to-section span {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-primary-utl-to-section:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--color-primary);
+    color: var(--color-white);
+    transition: all .35s;
+}
+
+.btn-primary-utl-to-section:hover {
     color: var(--color-white);
 }
 
-.primary-title {
-    font-family: 'Montserrat';
-}
-
-.banner {
+.btn-primary-utl-to-section:hover:after {
     width: 100%;
-    height: 200px;
-    background-color: var(--color-primary);
+}
+
+.buttons-section-content {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.banner>h2 {
-    font-size: 35px;
-    color: var(--color-white);
-}
-
-.badge {
-    padding: 4px 10px;
-    border-radius: 25px;
-    margin: 2px 5px;
-    font-size: 12px;
-}
-
-@media (max-width: 900px) {
-    .section-content {
-        width: 80%;
-    }
-
-    .btn-secondary-utl {
-        padding: 6px 24px;
-        font-size: 12px;
-    }
-
-    .btn-primary-icon-utl {
-        font-size: 12px;
-    }
-
-    .btn-primary-icon-utl>i {
-        font-size: 16px;
-    }
-
-    .banner>h2 {
-        font-size: 18px;
-    }
+    flex-wrap: wrap;
+    gap: 15px;
 }
