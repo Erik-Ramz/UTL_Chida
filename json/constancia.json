@@ -25,10 +25,48 @@
             "titulo": "Correos de contacto",
             "descripcion": [
                 "Yessica Saray Gómez | ygomez@utleon.edu.mx",
-                "   • TSU",
+                "  • TSU",
                 "   ▸ Administración",
-                "   ▸ Desarrollo de negocios"
-                ,"  • ING/LIC"
+                "   ▸ Desarrollo de Negocios",
+                "  • ING/LIC",
+                "   ▸ Gestión del Capital Humano",
+                "   ▸ Innovación de Negocios y Mercadotecnia",
+                "Brenda Isabel Tellez | btellez@utleon.edu.mx",
+                "  • TSU",
+                "   ▸ Mecatrónica",
+                "   ▸ Procesos Industriales",
+                "  • ING/LIC",
+                "   ▸ Mecatrónica",
+                "   ▸ Sistemas Productivos",
+                "Luis Alejandro Gonzáles | luis.gonzalez@utleon.edu.mx",
+                "  • TSU",
+                "   ▸ Logística",
+                "   ▸ Mantenimiento",
+                "   ▸ Química",
+                "   ▸ Turismo",
+                "  • ING/LIC",
+                "   ▸ Diseño y Gestión de Redes Logísticas",
+                "   ▸ Mantenimiento Industrial",
+                "   ▸ Tecnología Ambiental",
+                "   ▸ Gestión y Desarrollo Turístico",
+                "Evangelina Torres Padilla | etorresp@utleon.edu.mx ",
+                "  • TSU",
+                "   ▸ Gastronomía",
+                "   ▸ Tecnologías de la Información",
+                "  • ING/LIC",
+                "   ▸ Gastronomía",
+                "   ▸ Tecnologías de la Información"
+            ],
+            "link": ""
+        },
+        {
+            "titulo": "Entrega",
+            "descripcion": [
+                "El tiempo de entrega es de 3 días laborales como máximo, posterior a la fecha de recepción del correo.",
+                "¡NO HABRÁ CAMBIOS!",
+                "Si eliges la opción digital y posteriormente quieres cambiarla en físico, esta deberá ser gestionada nuevamente con costo y de acuerdo a los tiempos establecidos."
+                ,"Antes de solicitar la constancia verifica con la persona o instancia (institución) en la que entregarás la constancia, si la requiere de manera física o digital.",
+                "***Hasta no recibir el correo se iniciará el proceso de elaboración./*  */"
             ],
             "link": ""
         }
