@@ -18,6 +18,7 @@
     padding: 20px;
     box-shadow: 2px 9px 65px -54px rgba(0, 0, 0, 0.75);
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 .faq-card-becas:hover {
@@ -44,7 +45,7 @@
 
 .faq-card.active,
 .additional-info.active {
-    max-height: fit-content;
+    max-height: 300px;
 }
 
 /* .faq-card-becas:has(.additional-info.active) {

@@ -38,4 +38,10 @@
     margin: 0 10px;
 }
 
+.card-carrera:hover {
+    cursor: pointer;
+    /* transform: translateY(-15px); */
+    border-bottom: 2px solid var(--color-primary);
+}
+
 @media (max-width: 900px) {}

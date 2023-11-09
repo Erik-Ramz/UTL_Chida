@@ -53,6 +53,13 @@
     gap: 20px;
 }
 
+.modelo-ing-lic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .modelo-tsu .vl,
 .modelo-estudios .vl {
     border-left: 3px solid var(--color-secondary-dark);

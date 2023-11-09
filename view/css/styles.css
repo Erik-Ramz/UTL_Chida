@@ -132,6 +132,7 @@ main {
     text-decoration: none !important;
     width: fit-content;
 }
+
 .btn-primary-utl-to-section:hover {
     background: transparent;
     border: 2px solid var(--color-primary);
@@ -184,4 +185,71 @@ main {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+.btn-step {
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--color-primary);
+    color: var(--color-black);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-step.active {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.primary-title {
+    font-family: 'Montserrat';
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner>h2 {
+    font-size: 35px;
+    color: var(--color-white);
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 25px;
+    margin: 2px 5px;
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .section-content {
+        width: 80%;
+    }
+
+    .btn-secondary-utl {
+        padding: 6px 24px;
+        font-size: 12px;
+    }
+
+    .btn-primary-icon-utl {
+        font-size: 12px;
+    }
+
+    .btn-primary-icon-utl>i {
+        font-size: 16px;
+    }
+
+    .banner>h2 {
+        font-size: 18px;
+    }
 }
